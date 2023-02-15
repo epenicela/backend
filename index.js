@@ -7,8 +7,8 @@ var cors = require('cors');
 app.use(cors());
 
 //Rotas e conexao
-//const appCustom = require("./config/appCustom");
-//appCustom(app, express);
+const appCustom = require("./config/appCustom");
+appCustom(app, express);
 
 app.listen(3000, (error) => {
     if (error) {
