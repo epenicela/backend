@@ -1,0 +1,21 @@
+[Dependencias Backend]
+
+npm init -y  
+npm install express  
+npm install -g nodemon
+npm install mysql
+
+
+[Dependencias Frontend]
+npm install -g @vue/cli //dependenicia vue
+vue create frontend // criando o projecto vue
+vue add vuetify // Vue CLI 3
+npm install axios // para enviar e receber dados vue/node
+
+//erro core js
+npm rm -rf node_modules
+npm install --save core-js
+
+
+link icon
+https://mdisearch.com/
