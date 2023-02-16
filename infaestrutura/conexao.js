@@ -17,11 +17,7 @@ const conexao = mysql.createConnection({
 
 
 const conexao = mysql.createConnection({
-    host: process.env.DB_HOST,
-    port: 7238,
-    user: 'root',
-    password: process.env.DB_PASSWORD,
-    database: 'railway'
+    mysql -hcontainers-us-west-101.railway.app -uroot -psGsTtMDCYOElyDTQIuR7 --port 7238 --protocol=TCP railway
 });
 
 module.exports = conexao; 
