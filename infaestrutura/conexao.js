@@ -2,11 +2,11 @@ const mysql = require("mysql");
 
 
 const conexao = mysql.createConnection({
-    host: "82.180.153.77",
-    port: 3306,
-    user: "u868151405_vacin",
-    password: "@Academy3",
-    database: "u868151405_pweb"
+    host: "localhost",
+    port: 7238,
+    user: "root",
+    password: "sGsTtMDCYOElyDTQIuR7",
+    database: "railway"
 });
 
 module.exports = conexao;
