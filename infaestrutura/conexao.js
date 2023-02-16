@@ -8,7 +8,7 @@ var DB_PORT = process.env.DB_PORT || 3606;
 
 const conexao = mysql.createConnection({
     host: DB_HOST,
-    port: 3306,
+    port: 7238,
     user: DB_USER,
     password: DB_PASSWORD,
     database: DB_NAME
