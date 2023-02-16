@@ -17,10 +17,10 @@ const conexao = mysql.createConnection({
 
 
 const conexao = mysql.createConnection({
-    host: 'containers-us-west-101.railway.app',
+    host: process.env.DB_HOST,
     port: 7238,
     user: 'root',
-    password: 'sGsTtMDCYOElyDTQIuR7',
+    password: process.env.DB_PASSWORD,
     database: 'railway'
 });
 
